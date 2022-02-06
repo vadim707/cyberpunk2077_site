@@ -1,0 +1,92 @@
+body{
+  background-image:url(cyberpunk-2077.jpg);
+  background-size:contain;
+  background-attachment:fixed;
+  color:red;
+}
+i{
+  font-family: Cambria;
+  font-size:50px;
+  font-weight:bold; 
+}
+li{
+  color:yellow;
+  list-style: none;
+  font-size:20px;
+}
+table{
+  margin-top:10px;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  color:yellow;
+  text-decoration:underline;
+}
+
+.text{
+  color:#8000FF;
+}  
+
+.button{
+  color:#FC2847;
+}
+
+.johnny_image{
+  width:370px;
+  height:300px;
+  border-radius:25px;
+  margin-top:70px;
+  margin-left:1450px;
+}
+
+.link{
+  font-size:25px;
+  margin-left:1300px;
+}
+
+.gif{
+  background:black;
+  border:3px solid #FF00FF;
+  margin-right:50px;
+  padding:25px;
+  width:450px;
+  height:250px;
+}
+
+#cyb{
+  position:fixed;
+  top:10px;
+  left:800px;
+}
+
+@media (max-width:700px){
+  #cyb{
+     display:block;
+  }
+}
+
+#cyb:first-letter{	
+  color:yellow;
+}
+#drob{
+  color:yellow;
+}
+#text{
+  display:block;
+  color:yellow;
+}
+#car{
+  font-family: Helvetica;
+  color:#ffff00;
+  font-size:35px;
+  margin-left:1300px;
+}
+#weapon{
+  font-family:Verdana;
+  font-size:40px;
+  margin-left:40px;
+  background-color:#ffffff;
+}
